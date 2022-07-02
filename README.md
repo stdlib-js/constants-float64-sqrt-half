@@ -24,30 +24,14 @@ limitations under the License.
 
 > [Square root][@stdlib/math/base/special/sqrt] of `1/2`.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/constants-float64-sqrt-half
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var SQRT_HALF = require( '@stdlib/constants-float64-sqrt-half' );
+import SQRT_HALF from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-sqrt-half@esm/index.mjs';
 ```
 
 #### SQRT_HALF
@@ -71,11 +55,20 @@ var bool = ( SQRT_HALF === 0.7071067811865476 );
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var SQRT_HALF = require( '@stdlib/constants-float64-sqrt-half' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="module">
+
+import SQRT_HALF from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-sqrt-half@esm/index.mjs';
 
 console.log( SQRT_HALF );
 // => 0.7071067811865476
+
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -105,7 +98,7 @@ console.log( SQRT_HALF );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -165,11 +158,11 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/constants-float64-sqrt-half/main/LICENSE
 
-[@stdlib/math/base/special/sqrt]: https://github.com/stdlib-js/math-base-special-sqrt
+[@stdlib/math/base/special/sqrt]: https://github.com/stdlib-js/math-base-special-sqrt/tree/esm
 
 <!-- <related-links> -->
 
-[@stdlib/constants/float64/ln-half]: https://github.com/stdlib-js/constants-float64-ln-half
+[@stdlib/constants/float64/ln-half]: https://github.com/stdlib-js/constants-float64-ln-half/tree/esm
 
 <!-- </related-links> -->
 

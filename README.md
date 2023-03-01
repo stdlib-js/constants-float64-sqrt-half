@@ -144,7 +144,7 @@ Macro for the [square root][@stdlib/math/base/special/sqrt] of `1/2`.
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/constants/float64/ln-half`][@stdlib/constants/float64/ln-half]</span><span class="delimiter">: </span><span class="description">natural logarithm of 1/2.</span>
+-   <span class="package-name">[`@stdlib/constants-float64/ln-half`][@stdlib/constants/float64/ln-half]</span><span class="delimiter">: </span><span class="description">natural logarithm of 1/2.</span>
 
 </section>
 
